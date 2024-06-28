@@ -1,6 +1,8 @@
 {
   "name": "random-quote-machine",
   "version": "0.1.0",
+  "homepage": "https://{lamascr}.github.io/{Front-End-Development-Libraries0}",
+ 
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.6",
@@ -9,7 +11,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^4.2.0"
+    "web-vitals": "^4.2.0",
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
